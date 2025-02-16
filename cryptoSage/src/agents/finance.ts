@@ -9,13 +9,13 @@ import { systemPrompt } from "@/agents/system-prompt";
 
 // Initialize the language model with specific configurations
 const llm = new ChatOpenAI({
-  modelName: "gpt-4o",
+  modelName: "gpt-4o-mini",
   temperature: 0.1,
 });
 
 const MEMORY_KEY = "chat_history";
 
-// Define the chat prompt structure
+// Define the chat prompt structur
 const prompt = ChatPromptTemplate.fromMessages([
   ["system", systemPrompt],
   new MessagesPlaceholder(MEMORY_KEY),

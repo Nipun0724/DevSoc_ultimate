@@ -5,7 +5,7 @@ import { AICrypto } from "./action-crypto";
 const Home = () => {
   return (
     <AICrypto>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="">
         <Chat />
       </main>
     </AICrypto>

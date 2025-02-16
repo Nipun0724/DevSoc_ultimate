@@ -34,7 +34,7 @@ function IntroSection({ setInput }: { setInput: (input: string) => void }) {
 
   return (
     <div className="flex justify-center items-center h-full">
-      <Card className="sm:mx-0 max-w-screen-md rounded-lg border border-purple-500 bg-gray-800 text-white shadow-lg sm:w-full">
+      <Card className="sm:mx-0 max-w-screen-md rounded-lg border border-purple-500 bg-gray-800 text-white shadow-lg sm:w-full mt-6">
         <CardHeader>
           <div className="flex flex-col space-y-4 text-center">
             <h2 className="text-2xl font-bold text-purple-400">CryptoSage AI</h2>
